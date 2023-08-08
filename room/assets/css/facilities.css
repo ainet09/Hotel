@@ -1,0 +1,33 @@
+.container{
+    margin: auto;
+    text-align: center;
+   
+}
+
+.container h1{
+    /* color: #14274A; */
+    text-align: center;
+    font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.container p {
+    /* color: #14274A; */
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.container img{
+    width: 1580px;
+    height: 1052px;
+    flex-shrink: 0;
+}

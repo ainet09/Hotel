@@ -1,0 +1,114 @@
+{% extends 'louyats/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACILITIES</title>
+</head>
+<body>
+{% block content %}
+<style>
+
+.container{
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.container p {
+    color: #14274A;
+    text-align: center;
+    font-family: Montserrat sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+.container img{
+    width: 1200px;
+    height: auto;
+    {#opacity: 90%;#}
+}
+
+.about-room {
+    position: relative;
+    margin-top: 80px ;
+}
+
+.room-title {
+    width: 800px;
+    margin:  auto;
+    color: black;
+    text-align: center;
+    font-family: Adobe Garamond Pro sans-serif;''
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+</style>
+
+
+
+    <div class="container">
+        <h1>FACILITIES</h1>
+        <p>We want your stay at our lush hotel to be truly unforgettable.  That is why we give special attention to all of your needs so 
+            that we can ensure an experience quite uniquw. Luxury hotels offers the perfect setting with stunning views for leisure
+            and our modern luxury resort facilities will help you enjoy the best of all. </p>
+
+
+        <div class="about-room">    
+        <img src="/media/gym.png" alt="">
+        <h1 class="room-title">THE GYM</h1>
+        </div>
+
+
+        <div class="about-room">
+        <img src="/media/pool.svg" alt="">
+        <h1 class="room-title">POOLSIDE BAR</h1></div>
+        <div>
+
+        <div class="about-room">
+        <img src="/media/spa.svg" alt="">
+        <h1 class="room-title">THE SPA</h1>
+        </div>
+
+        <div class="about-room">
+        <img src="/media/pool2.svg" alt="">
+        <h1 class="room-title">SWIMMING POOL</h1>
+        </div>
+
+
+        <div class="about-room">
+        <img src="/media/rest.png" alt="">
+        <h1 class="room-title">RESTAURANT</h1>
+        </div>
+
+
+        <div class="about-room">
+        <img src="/media/laundrachej.png" alt="">
+        <h1 class="room-title">LAUNDRY</h1>
+        </div>
+
+        <h2 style="margin-top:80px ">Testimonials</h2>
+        <p>"Calm, Serene, Retro  What a way to relax and enjoy"</p>
+        <span style="margin-bottom:80px "> Mr. and Mrs. Baxter, UK</span>
+        
+    </div>
+
+{% endblock %}
+</body>
+</html>
+
+
+
+
+
